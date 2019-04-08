@@ -1,6 +1,6 @@
 def isPalindrome(s):
     l = len(s)
-    for i in range(l/2):
+    for i in xrange(l/2):
         if (s[i] != s[l-i-1]):
             return False
     
